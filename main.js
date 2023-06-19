@@ -11,5 +11,4 @@ document.querySelector('#app').innerHTML = `
   </div>
   </div>
 `
-
 handleClick(document.querySelector('.btn'))
