@@ -1,0 +1,38 @@
+h1{
+  text-align: center;
+  font-size: 45px;
+}
+.body{
+  height: 100vh;
+  margin: 0 auto;
+  
+}
+
+.bgchange{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 50px;
+  width: 100%;
+  max-width: 900px;
+  margin: 150px auto;
+  /* border: 1px solid black; */
+}
+
+button{
+  border: none;
+  background: none;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+button:hover{
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
